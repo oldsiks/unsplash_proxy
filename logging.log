@@ -1,0 +1,45 @@
+2020-10-09 22:54:31,660 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:54:31,660 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:54:31,660 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:55:49,343 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:55:49,343 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:55:49,343 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:57:54,973 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:57:54,978 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:57:54,978 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:58:47,526 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:58:47,528 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 22:58:47,528 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 23:02:27,989 - root -    ERROR - 关键字：animals，第6页，第1次发生错误HTTPSConnectionPool(host='unsplash.com', port=443): Max retries exceeded with url: /napi/search/photos?query=animals&per_page=20&page=6 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1124)')))
+2020-10-09 23:02:34,618 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 23:02:34,619 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 23:02:34,619 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-09 23:02:38,187 - root -    ERROR - 关键字：animals，第6页，第1次发生错误HTTPSConnectionPool(host='unsplash.com', port=443): Max retries exceeded with url: /napi/search/photos?query=animals&per_page=20&page=6 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1124)')))
+2020-10-09 23:02:48,598 - root -    ERROR - 关键字：animals，第6页，第1次发生错误HTTPSConnectionPool(host='unsplash.com', port=443): Max retries exceeded with url: /napi/search/photos?query=animals&per_page=20&page=6 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1124)')))
+2020-10-09 23:02:59,044 - root -    ERROR - 关键字：animals，第6页，第1次发生错误HTTPSConnectionPool(host='unsplash.com', port=443): Max retries exceeded with url: /napi/search/photos?query=animals&per_page=20&page=6 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1124)')))
+2020-10-09 23:03:09,205 - root -    ERROR - 关键字：animals，第6页，第1次发生错误HTTPSConnectionPool(host='unsplash.com', port=443): Max retries exceeded with url: /napi/search/photos?query=animals&per_page=20&page=6 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1124)')))
+2020-10-09 23:03:19,627 - root -    ERROR - 关键字：animals，第6页，第1次发生错误HTTPSConnectionPool(host='unsplash.com', port=443): Max retries exceeded with url: /napi/search/photos?query=animals&per_page=20&page=6 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1124)')))
+2020-10-09 23:03:30,482 - root -    ERROR - 关键字：animals，第6页，第1次发生错误HTTPSConnectionPool(host='unsplash.com', port=443): Max retries exceeded with url: /napi/search/photos?query=animals&per_page=20&page=6 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1124)')))
+2020-10-09 23:03:40,825 - root -    ERROR - 关键字：animals，第6页，第1次发生错误HTTPSConnectionPool(host='unsplash.com', port=443): Max retries exceeded with url: /napi/search/photos?query=animals&per_page=20&page=6 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1124)')))
+2020-10-09 23:03:51,167 - root -    ERROR - 关键字：animals，第6页，第1次发生错误HTTPSConnectionPool(host='unsplash.com', port=443): Max retries exceeded with url: /napi/search/photos?query=animals&per_page=20&page=6 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1124)')))
+2020-10-09 23:04:01,816 - root -    ERROR - 关键字：animals，第6页，第1次发生错误HTTPSConnectionPool(host='unsplash.com', port=443): Max retries exceeded with url: /napi/search/photos?query=animals&per_page=20&page=6 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1124)')))
+2020-10-10 23:14:15,986 - root -    ERROR - 关键字：animals，第14页，第1次发生错误request() got an unexpected keyword argument 'verigy'
+2020-10-10 23:14:15,989 - root -    ERROR - request() got an unexpected keyword argument 'verigy'
+Traceback (most recent call last):
+  File "/Users/real/PycharmProjects/unsplash/LinkCrawl.py", line 71, in run
+    flag = self.get_link(page=page, keyword=keyword, key_type=key_type, proxy=proxy)
+  File "/Users/real/PycharmProjects/unsplash/LinkCrawl.py", line 28, in get_link
+    resp = requests.get(url=self.link, params=params, headers=self.headers, proxies=proxies, verigy=False)
+  File "/Users/real/env/spider/lib/python3.8/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/real/env/spider/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'verigy'
+2020-10-10 23:14:22,987 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-10 23:14:22,988 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-10 23:14:22,991 - root -    ERROR - 连续三次未从link池中获取url，终止程序
+2020-10-10 23:15:56,864 - root -     INFO - 200
+2020-10-10 23:16:00,500 - root -     INFO - 200
+2020-10-10 23:19:23,129 - root -     INFO - 200
+2020-10-10 23:19:26,455 - root -     INFO - 200
+2020-10-10 23:19:30,099 - root -     INFO - 200
